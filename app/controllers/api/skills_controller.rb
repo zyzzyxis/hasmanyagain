@@ -4,7 +4,7 @@ class Api::SkillsController < ApplicationController
 
   def index
     skills = Skill.all
-    render json :skills
+    render json: skills
   end
 
   def show

@@ -3,7 +3,7 @@ class Api::GradesController < ApplicationController
 
   def index
     grades = Grade.all
-    render json :grades
+    render json: grades
   end
 
   def show
