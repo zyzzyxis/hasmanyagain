@@ -10,6 +10,7 @@ import ComponentDemo from './pages/ComponentDemo';
 import Users from './pages/Users';
 import Grades from './pages/Grades';
 import Skills from './pages/Skills';
+import UserShow from './pages/UserShow';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/users' component={Users} />
+        <Route exact path='/users/:id' component={UserShow} />
         <Route exact path='/grades' component={Grades} />
         <Route exact path='/skills' component={Skills} />
         <Route exact path='/componentDemo' component={ComponentDemo} />

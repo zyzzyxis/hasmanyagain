@@ -17,17 +17,3 @@ const Grades = (props)=>{
 
 export default Grades
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
