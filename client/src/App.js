@@ -11,6 +11,7 @@ import Users from './pages/Users';
 import Grades from './pages/Grades';
 import Skills from './pages/Skills';
 import UserShow from './pages/UserShow';
+import SkillShow from './pages/SkillShow';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route exact path='/users/:id' component={UserShow} />
         <Route exact path='/grades' component={Grades} />
         <Route exact path='/skills' component={Skills} />
+        <Route exact path='/skills/:id' component={SkillShow} />
         <Route exact path='/componentDemo' component={ComponentDemo} />
         
       </Switch>
